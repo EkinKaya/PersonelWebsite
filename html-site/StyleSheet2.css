@@ -1,0 +1,116 @@
+﻿body {
+    background-color: #FCF8E8 ;
+}
+
+h1 {
+    color: #ECB390;
+    margin-left: 30px;
+    padding: 25px 20px;
+}
+h2 {
+    color: #ECB390;
+    font-size: 45px;
+    margin-left: 10px;
+    padding: 25px 20px;
+    text-align: center;
+}
+h3 {
+    color: #CEE5D0;
+    margin-left: 10px;
+    padding: 0 20px;
+    text-indent: 20px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(arkaplangörsel.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.banner2 {
+    height: 110vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(arkaplangörsel.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    cursor: pointer;
+    border-radius: 50%;
+}
+.navbar ul li{
+    list-style-type:none;
+    display: inline-block;
+    margin: 0 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #FCF8E8;
+}
+    .navbar ul li a:hover {
+        box-shadow: 0 2px #ECB390;
+    }
+.content {
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    color: white;
+    text-align: center;
+}
+    .content h1 {
+        font-size: 65px;
+        color: #ECB390;
+    }
+    .content p {
+        font-size: 45px;
+        margin: 20px auto;
+        color: #FCF8E8;
+    }
+    .content h2 {
+        font-size: 45px;
+        color: #ECB390;
+    }
+.contentsol {
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    color: white;
+    text-align: left;
+}
+.contentsag {
+    width: 85%;
+    position: absolute;
+    padding: 70px 15px;
+    top: 40%;
+    color: white;
+    text-align: right;
+}
+button {
+    width: 400px;
+    padding: 15px 0;
+    border-radius: 35px;
+    margin: 50px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #CEE5D0;
+    font-size: 17px;
+}
+button:hover {
+    color: black;
+    transition: 1s;
+}
